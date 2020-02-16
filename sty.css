@@ -1,0 +1,35 @@
+
+body{
+    background-image:radial-gradient(red,yellow,blue);
+}
+#container{
+    background-color: rgba(0,0,0,0.5);
+    width: 50%;
+    height: 60%;
+    margin-top:1px;
+    border-radius: 20px;
+    
+}
+#topmain{
+    background-color: rgba(255,255,255,0.6);
+    width:10%;
+    height:5%;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+#imageboss{
+    float: left;
+    margin-top: 42px;
+    margin-left: 30px;
+    border-radius: 50px;
+   
+}
+#right{
+    
+    float: right;
+    margin-top: 150px;
+    margin-right:40px;
+    font-size: 18pt;
+   
+
+}

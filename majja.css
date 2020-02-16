@@ -1,0 +1,80 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#he{
+    width: 100%;
+    height:100%;
+    margin:15px 10px 0 10px;
+    position: absolute;
+    top:0px;
+}
+
+#logo{
+    width:20%;
+    height: 8%;
+    float: left;
+    background-color: rgba(20,20,255,0.6);
+    color:black;
+}
+#logi{
+    width:20%;
+    height: 8%;
+    float: right;
+    background-color:  rgba(20,20,255,0.6);
+    color:black;
+}
+*{
+    font-family: cursive;
+}
+#bottom{
+    background-color: rgba(20,255,20,0.6);
+    color: black;
+    width:20%;
+    height: 8%;
+    position: absolute;
+    bottom: 0px ;
+    right: 0px;
+    margin: 0px 15px 10px 0px;
+    border-radius: 20px;
+
+}
+#br{
+    background-color: rgba(20,255,20,0.6);
+    color: black;
+    width:20%;
+    height: 8%;
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    margin: 0px 0px 10px 15px;
+    border-radius: 20px;
+   
+}
+.anim{
+    border-radius: 30px;
+    width: 10%;
+    height: 20%;
+    text-align: center;
+    background-color:rgba(200,40,50,0.6);
+    position: absolute;
+    animation-name: boss;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes boss{
+    0%{transform: rotateY(0deg);opacity: 1;}
+    10%{transform: rotateY(360);opacity: 1;}
+    100%{opacity:0;transform:rotateY(360deg);}
+}
+#container{
+ width: 100%;
+ height: 100%;
+ z-index: -10;
+}
+button:hover{
+    
+    box-shadow: 0 0 20px 10px #0ff;
+   
+    
+}
